@@ -11,9 +11,20 @@
 
     <script>
         const hashTable = new HashTable();
-        hashTable.set('AB', 1);
-        hashTable.set('BAC', 2);
-        console.log(hashTable.dump());    
+        hashTable.set('A', 1);
+        hashTable.set('B', 2);
+        hashTable.set('C', 3);
+        hashTable.set('D', 4);
+        hashTable.set('E', 5);
+        hashTable.set('F', 6);
+        hashTable.set('G', 7);
+        hashTable.set('H', 8);
+        hashTable.set('A', 10);
+
+
+        console.log(hashTable.get('A'));
+        console.log(hashTable.get('H'));   
+        console.log(hashTable.get('HB'));    
     </script>
     
 </body>
